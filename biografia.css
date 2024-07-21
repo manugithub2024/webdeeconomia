@@ -1,0 +1,83 @@
+/*aqui vemos que podemos hacer un centro de todo el 
+    contenido de esta pagina web, asi trabajar por secciones*/
+    *{
+        font-family: Arial narrow;
+        font-size: 20px;
+        padding: 5px;
+    }
+    h1{
+        color: white;
+        font-family: arial;
+        background-color: black;
+        border-radius: 5px;
+        padding: 1%;
+        text-align: center;
+        margin-right: 40%;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    
+    .parrafo1{
+        padding: 40px;     
+        background-color: rgb(46, 26, 223);
+        border-radius: 10px;
+        width: 50%;
+        height: 170%;
+        margin-left: 5%;
+        margin-top: 3%;
+        color: white;
+
+    }
+    .parrafo2{
+        padding: 40px;     
+        background-color: rgb(209, 34, 34);
+        border-radius: 10px;
+        width: 50%;
+        height: 170%;
+        margin-left: 10%;
+        margin-top: -14%;
+        color: white;
+
+    }
+    .paul{
+        img{
+        width:400px;
+        margin-top: -20%;
+        margin-left: 70%;
+        border-radius: 30px;
+        
+    }}
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+
+    .image {
+
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+        
+    }
+    
+    .image:hover {
+        transform: scale(1.05);
+    }
+    
+    .image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
